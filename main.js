@@ -1,0 +1,17 @@
+document.addEventListener("DOMContentLoaded", () =>{
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+    const a = document.getElementById("")
+
+} )

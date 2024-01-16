@@ -1,0 +1,291 @@
+/* *{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: linear-gradient((to right, #2596BE, #452DD7));
+  color: white;
+}
+
+.main-content-container {
+  backdrop-filter: blur(10px); 
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px; 
+}
+
+
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .logo{
+  padding: 30px 0 0 50px;
+}
+
+.top .top-right{
+  padding: 30px 100px 0 0;
+}
+.searchbar{
+  text-align: center;
+}
+ .searchbar input{
+  border-radius: 15px;
+  border: 2px black solid;
+ }
+
+#search-music::placeholder{
+  padding-left: 20px;
+  font-size: smaller;
+}
+
+#songname,#artist{
+  text-align: center;
+  padding-top: 13px;
+}
+#search-music{
+  width: 350px;
+  align-items: center;
+}
+
+.main-content img {
+  height: 200px;
+  width: auto;
+  border-radius: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-content .quavers1{
+  height: 100px;
+  box-shadow: 0 4px 8px;
+  border-radius: 30%;
+  color: #2596BE;
+}
+
+.main-content .quavers2 {
+  height: 100px;
+  box-shadow: 0 4px 8px;
+  border-radius: 30%;
+  color: #452DD7;
+}
+
+.main-content .main-images {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+img{
+  height: 20px;
+  color: black;
+}
+
+.song-functionality{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sound-functionality-left{
+  padding-left: 90px;
+}
+#mute,
+#unmute{
+  padding-left: 9px;
+}
+
+.sound-functionality-right{
+  padding-right: 90px;
+}
+#volume-decrease,
+#volume-increase{
+  padding-left: 9px;
+  color: black;
+}
+
+.newsletter{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.socials{
+  text-align: center;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.socials img{
+  padding-top: 5px;
+  padding-left: 14px;
+}
+
+#newsletter-input{
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+#newsletter-input::placeholder{
+  padding-left: 17px;
+  font-size: 18px;
+  font-size: smaller;
+}
+#newsletter-btn{
+  color: #452DD7;
+  border: none;
+  background-color: #2596BE;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 9px;  
+} */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #2596BE, #452DD7);
+  color: white;
+}
+
+.main-content-container {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top .logo {
+  padding: 30px 0 0 50px;
+}
+
+.top .top-right {
+  padding: 30px 100px 0 0;
+}
+
+.searchbar {
+  text-align: center;
+}
+
+.searchbar input {
+  border-radius: 15px;
+  border: 2px black solid;
+}
+
+#search-music::placeholder {
+  padding-left: 20px;
+  font-size: smaller;
+}
+
+#songname,
+#artist {
+  text-align: center;
+  padding-top: 13px;
+  color: white;
+}
+
+#search-music {
+  width: 350px;
+  align-items: center;
+}
+
+.main-content img {
+  height: 200px;
+  width: auto;
+  border-radius: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .quavers1,
+.main-content .quavers2 {
+  height: 100px;
+  width: auto;
+  border-radius: 30%;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+}
+
+.main-content .main-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+  height: 20px;
+  color: black;
+}
+
+.song-functionality {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sound-functionality-left {
+  padding-left: 90px;
+}
+
+#mute,
+#unmute {
+  padding-left: 9px;
+}
+
+.sound-functionality-right {
+  padding-right: 90px;
+}
+
+#volume-decrease,
+#volume-increase {
+  padding-left: 9px;
+  color: black;
+}
+
+.newsletter {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.socials {
+  text-align: center;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.socials img {
+  padding-top: 5px;
+  padding-left: 14px;
+}
+
+#newsletter-input {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#newsletter-input::placeholder {
+  padding-left: 17px;
+  font-size: 18px;
+  font-size: smaller;
+}
+
+#newsletter-btn {
+  color: #452DD7;
+  border: none;
+  background-color: #2596BE;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 9px;
+}
