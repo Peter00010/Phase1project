@@ -61,4 +61,27 @@ submitNewsletter.addEventListener("click", () =>{
     }
 })
 
+
+
+
 });
+
+function fetchSearchResults(searchWord){
+
+    fetch("")
+    .then(response => response.json)
+    .then(data =>{
+        console.log(data)
+    })
+    .catch(error =>{
+        console.error("Error fetching music data: ", error);
+    })
+}
+
+function clearSearchResults(){
+
+}
+
+function suscribeToNewsletter(email){
+
+}
