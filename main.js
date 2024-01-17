@@ -63,7 +63,7 @@ submitNewsletter.addEventListener("click", () =>{
 
 
 
-
+ 
 });
 
 function fetchSearchResults(searchWord){
